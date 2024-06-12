@@ -1,0 +1,41 @@
+body {
+    /* 背景色を設定 */
+    background-color: #f0f0f0;
+    /* フォントを設定 */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    /* 文字の色を赤に変更する場合 */
+    /* color: red; */
+}
+
+/* キャンバスのスタイル */
+#carCanvas {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+/* クレジットセクションのスタイル */
+#credits {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#credits h2 {
+    color: #333;
+}
+
+#credits ul {
+    list-style: none;
+    padding: 0;
+}
+
+#credits li {
+    margin: 5px 0;
+    /* フォントの色を青に変更する場合 */
+    /* color: blue; */
+}
